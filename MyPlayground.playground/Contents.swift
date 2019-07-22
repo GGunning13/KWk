@@ -3,8 +3,6 @@ import UIKit
 var str = "Hello, playground"
 import UIKit
 
-var str = "Hello, playground"
-str
 var name = "grace"
 print ("hello world")
 var age = 13
@@ -37,3 +35,27 @@ else if favoriteFood != "bread" {
 var gitHub = "rocks"
 if  gitHub == "rocks" {
     print ("") }
+func walkDog(numberOfDogs: Int)-> Int {
+    let lengthOfWalk = numberOfDogs * 15
+    
+    print ("there are \(numberOfDogs) dogs in the house")
+    return lengthOfWalk
+}
+walkDog(numberOfDogs : 4)
+
+func makingCerial() {
+    print ("get bowl")
+    print ("put cerial in bowl")
+    print ("eat cerial")
+}
+makingCerial()
+func hello(hello:String){
+print ("hello trinity")
+}
+hello(hello: "hellotrinity")
+var friendsOfKarlie = ["michelle Obama","serena Williams","t Swift","jimmy Fallon"]
+friendsOfKarlie[2]
+friendsOfKarlie[2]="josh kushner"
+var myFriends=["megan", "sophia","steven"]
+myFriends[1]
+myFriends[2]                            
